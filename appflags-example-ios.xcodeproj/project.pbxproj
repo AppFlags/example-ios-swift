@@ -14,6 +14,7 @@
 		D036AB1E2B6F1A9600787C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D036AB1D2B6F1A9600787C3D /* Assets.xcassets */; };
 		D036AB212B6F1A9600787C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D036AB202B6F1A9600787C3D /* Preview Assets.xcassets */; };
 		D03B4AA82B8C244600F9D5ED /* AppFlags in Frameworks */ = {isa = PBXBuildFile; productRef = D03B4AA72B8C244600F9D5ED /* AppFlags */; };
+		D0C2DA8A2B9027D7001657F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0C2DA892B9027D7001657F2 /* README.md */; };
 		D0E8C2E12B83FCFE00A74FC3 /* AppFlagsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8C2E02B83FCFE00A74FC3 /* AppFlagsManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		D036AB1B2B6F1A9500787C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D036AB1D2B6F1A9600787C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D036AB202B6F1A9600787C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0C2DA892B9027D7001657F2 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0E8C2E02B83FCFE00A74FC3 /* AppFlagsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlagsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 		D036AB0D2B6F1A9500787C3D = {
 			isa = PBXGroup;
 			children = (
+				D0C2DA892B9027D7001657F2 /* README.md */,
 				D00A2C472B8E9728009B72D8 /* .gitignore */,
 				D036AB182B6F1A9500787C3D /* appflags-example-ios */,
 				D036AB172B6F1A9500787C3D /* Products */,
@@ -144,6 +147,7 @@
 			files = (
 				D036AB212B6F1A9600787C3D /* Preview Assets.xcassets in Resources */,
 				D00A2C482B8E9728009B72D8 /* .gitignore in Resources */,
+				D0C2DA8A2B9027D7001657F2 /* README.md in Resources */,
 				D036AB1E2B6F1A9600787C3D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

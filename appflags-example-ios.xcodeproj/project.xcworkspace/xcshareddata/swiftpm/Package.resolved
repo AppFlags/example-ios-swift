@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:AppFlags/ios-sdk.git",
       "state" : {
-        "revision" : "c81cad3d660b0c5f55a3c89b4a976adf17252285",
-        "version" : "1.0.1"
+        "revision" : "795b6386339e348ee94485d3a8b1a9be5f10de32",
+        "version" : "1.0.0"
       }
     },
     {

@@ -13,9 +13,9 @@
 		D036AB1C2B6F1A9500787C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D036AB1B2B6F1A9500787C3D /* ContentView.swift */; };
 		D036AB1E2B6F1A9600787C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D036AB1D2B6F1A9600787C3D /* Assets.xcassets */; };
 		D036AB212B6F1A9600787C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D036AB202B6F1A9600787C3D /* Preview Assets.xcassets */; };
-		D03B4AA82B8C244600F9D5ED /* AppFlags in Frameworks */ = {isa = PBXBuildFile; productRef = D03B4AA72B8C244600F9D5ED /* AppFlags */; };
 		D0C2DA8A2B9027D7001657F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0C2DA892B9027D7001657F2 /* README.md */; };
 		D0E8C2E12B83FCFE00A74FC3 /* AppFlagsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8C2E02B83FCFE00A74FC3 /* AppFlagsManager.swift */; };
+		D0EF2AE62B9908320049B0BF /* AppFlags in Frameworks */ = {isa = PBXBuildFile; productRef = D0EF2AE52B9908320049B0BF /* AppFlags */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03B4AA82B8C244600F9D5ED /* AppFlags in Frameworks */,
+				D0EF2AE62B9908320049B0BF /* AppFlags in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +49,7 @@
 				D00A2C472B8E9728009B72D8 /* .gitignore */,
 				D036AB182B6F1A9500787C3D /* appflags-example-ios */,
 				D036AB172B6F1A9500787C3D /* Products */,
+				D08EE99A2B94076C006A391D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D08EE99A2B94076C006A391D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,7 +106,7 @@
 			);
 			name = "appflags-example-ios";
 			packageProductDependencies = (
-				D03B4AA72B8C244600F9D5ED /* AppFlags */,
+				D0EF2AE52B9908320049B0BF /* AppFlags */,
 			);
 			productName = "appflags-example-ios";
 			productReference = D036AB162B6F1A9500787C3D /* appflags-example-ios.app */;
@@ -129,7 +137,7 @@
 			);
 			mainGroup = D036AB0D2B6F1A9500787C3D;
 			packageReferences = (
-				D03B4AA62B8C244600F9D5ED /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				D0EF2AE42B9908320049B0BF /* XCRemoteSwiftPackageReference "ios-sdk" */,
 			);
 			productRefGroup = D036AB172B6F1A9500787C3D /* Products */;
 			projectDirPath = "";
@@ -372,20 +380,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D03B4AA62B8C244600F9D5ED /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+		D0EF2AE42B9908320049B0BF /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:AppFlags/ios-sdk.git";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D03B4AA72B8C244600F9D5ED /* AppFlags */ = {
+		D0EF2AE52B9908320049B0BF /* AppFlags */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D03B4AA62B8C244600F9D5ED /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			package = D0EF2AE42B9908320049B0BF /* XCRemoteSwiftPackageReference "ios-sdk" */;
 			productName = AppFlags;
 		};
 /* End XCSwiftPackageProductDependency section */
